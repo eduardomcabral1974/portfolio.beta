@@ -1,1 +1,303 @@
-/* You can add global styles to this file, and also import other style files */
+.body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+.btn{
+    background-color: black ;
+    color: #FFFBEB
+}
+.navbar{
+    padding: 1rem;
+    background-color: #f5f6f7;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bi {
+    padding-left: 10px;
+    
+}
+
+#redes {
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner{
+    padding-top: 20px;
+}
+
+#perfil{
+    height: 200px;
+    width: 200x;
+    border-radius: 50%;
+    border-style: double;
+   
+}
+
+.seccion-titulo, .seccion-texto{
+    background-color: black;
+}
+
+.oscuro {
+    background-color: black;
+    color: #FFFBEB;
+}
+
+.claro{
+    background-color: #FFFBEB;
+    color:  black;
+    ;
+}
+
+.acerca-de-mi{
+    padding-top: 200px;
+    height: 600px;
+    background-image: url(\assets\img\banner2.jpg);
+  
+}
+
+.acerca-de-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+    
+    
+}
+#veo{
+    text-align: center;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: Poppins;
+    color:white;
+    
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+.explab, .educacion{
+    padding: 10px;
+}
+
+.imagen{
+    width: 100px;
+    height: 100px;
+}
+
+.empire{
+    width: 100px;
+    height: 80px;
+}
+#descript {
+    border-color: black;
+    border-radius: 20px;
+    border-style: solid;
+    margin: 10px 0;
+    background-color: #fffbeb;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    margin: 10px;
+    padding: 20px;
+}
+
+.gl{
+    width: 80px;
+    height: 80px;
+}
+.proyectos{
+    background-color:black;
+}
+#proximamente{
+    height: 200px;
+    width: 300px;
+    padding: 20px 0;
+}
+
+#datos2{
+    padding-bottom: 20px;
+}
+
+
+#apu {
+    border: none;
+    margin-top: -30px;
+    height: 250px;
+    width: 250px;
+    margin-left: 70px;
+}
+
+.titulohard{
+    padding: 20px;
+}
+
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #44484b;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.blue .progress-bar{
+    border-color: #049dff;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #fdba04;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #ed687c;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+
