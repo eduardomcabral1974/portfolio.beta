@@ -3,12 +3,28 @@
    
 }
 .btn{
-    background-color: black ;
-    color: #FFFBEB
+    background-color: #1DB954 ;
+    color: #FFFBEB;
+    border-radius: 15px;
+}
+#loginModal{
+    background-color: #191414;
+    border-radius: 20px;
+}
+#loginModalLabel{
+    color: white;
+}
+.form-label{
+    color: white;
+}
+#submit{
+    background-color: #1DB954;
+    
 }
 .navbar{
     padding: 1rem;
-    background-color: #f5f6f7;
+    background-color: #191414;
+    color : white;
 }
 .navbar-collapse {
     align-items: center;
@@ -17,14 +33,16 @@
 
 .bi {
     padding-left: 10px;
+    color: white;
     
 }
 
 #redes {
     border-style: solid;
-    border-color: white;
+    border-color: #1DB954;
+    background-color: #1DB954 ;
     padding: 10px;
-    border-radius: 10%;
+    border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -47,23 +65,24 @@ section {
    
 }
 
-.seccion-titulo, .seccion-texto{
-    background-color: black;
+.seccion-texto{
+    background-color: #191414;
+
 }
 
 .oscuro {
-    background-color: black;
+    background-color: #191414;
     color: #FFFBEB;
 }
 
 .claro{
     background-color: #FFFBEB;
-    color:  black;
+    color:  #191414;
     ;
 }
 
 .acerca-de-mi{
-    padding-top: 200px;
+    padding-top: 100px;
     height: 600px;
     background-image: url(\assets\img\banner2.jpg);
   
@@ -84,11 +103,15 @@ section {
     padding: 15px 0;
     font-family: Poppins;
     color:white;
+    background-color: #1DB954;
+    border-radius: 15px;
     
 }
 
 .seccion-texto{
     font-size: 1.2rem;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .explab, .educacion{
@@ -98,21 +121,29 @@ section {
 .imagen{
     width: 100px;
     height: 100px;
+    justify-content: center;
+    align-items: center;
+   
 }
-
 .empire{
     width: 100px;
-    height: 80px;
+    height: 90px;
+}
+
+#xmen{
+    border-radius: 50%;
 }
 #descript {
-    border-color: black;
+    border-color: #1DB954;
     border-radius: 20px;
     border-style: solid;
     margin: 10px 0;
-    background-color: #fffbeb;
+    background-color: #191414;
     display:flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-size: 20px ;
 }
 
 #titulo{
@@ -125,7 +156,7 @@ section {
     height: 80px;
 }
 .proyectos{
-    background-color:black;
+    background-color: #1DB954;
 }
 #proximamente{
     height: 200px;
@@ -133,10 +164,24 @@ section {
     padding: 20px 0;
 }
 
+#contacto{
+    background-color: #1DB954;
+    border-radius: 15px;
+}
+#contact{
+    background-color: #191414;
+}
 #datos2{
     padding-bottom: 20px;
+    color: white;
 }
 
+#datos {
+    background-color: #1DB954;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
 
 #apu {
     border: none;
@@ -148,8 +193,13 @@ section {
 
 .titulohard{
     padding: 20px;
+    color: white;
 }
 
+#skills {
+    background-color: #1DB954;
+    padding: 20px;
+}
 .progress{
     width: 150px;
     height: 150px;
@@ -301,3 +351,6 @@ section {
     .progress{ margin-bottom: 20px; }
 }
 
+.footer {
+    border-color: #1DB954;
+}

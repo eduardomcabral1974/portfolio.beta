@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { AcercaDeMiComponent } from './componentes/acerca-de-mi/acerca-de-mi.component';
@@ -25,7 +26,8 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     ProyectosComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
